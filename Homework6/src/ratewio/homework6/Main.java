@@ -7,7 +7,7 @@ public class Main {
     //наша библиотека, в которой хранятся все книги
     public static ArrayList<Book> library = new ArrayList<Book>();
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         //объявляем авторов
         Author  tolstoy = new Author("Лев", "Толстой", 9),
                 turgenev = new Author("Иван", "Тургенев", 7),
